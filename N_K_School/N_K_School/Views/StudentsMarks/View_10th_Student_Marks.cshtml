@@ -1,0 +1,38 @@
+﻿@model IEnumerable<N_K_School.Models.Std10_Marks>
+
+@{
+    ViewBag.Title = "View_10th_Student_Marks";
+}
+
+<h2>View_10th_Student_Marks</h2>
+
+
+
+<table class="table table-responsive">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.StudentID)</th>
+        <th>@Html.DisplayNameFor(model => model.ExamNo)</th>
+        <th>@Html.DisplayNameFor(model => model.English)</th>
+        <th>@Html.DisplayNameFor(model => model.Maths)</th>
+        <th>@Html.DisplayNameFor(model => model.Science)</th>
+        <th>@Html.DisplayNameFor(model => model.SocialScience)</th>
+        <th></th>
+    </tr>
+    @foreach (var m in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(s => m.StudentID)</td>
+            <td>@Html.DisplayFor(s => m.ExamNo)</td>
+            <td>@Html.DisplayFor(s => m.English)</td>
+            <td>@Html.DisplayFor(s => m.Maths)</td>
+            <td>@Html.DisplayFor(s => m.Science)</td>
+            <td>@Html.DisplayFor(s => m.SocialScience)</td>
+            <td>@Html.ActionLink("Edit", "Edit_10th_Marks", new { id = m.Std10Id, SIds = ViewBag.SIds })</td>
+        </tr>
+    }
+    <tr>
+        <td colspan="7">
+            @Html.ActionLink("Index", "Index")
+        </td>
+    </tr>
+</table>

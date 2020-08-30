@@ -1,0 +1,46 @@
+﻿@using N_K_School.Models
+@model List<Std10_Marks>
+
+@{
+    ViewBag.Title = "Add_10th_Marks";
+}
+
+<h2>Add_10th_Marks</h2>
+
+@using (Html.BeginForm("Add_10th_Marks", "StudentsMarks", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <th>StudentId</th>
+            <th>StudentName</th>
+            <th>ExamNo</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>SocialScience</th>
+        </tr>
+        @{ int i = 0;
+            foreach (Student s in ViewBag.Students)
+            {
+                <tr>
+                    @Html.HiddenFor(model => model[i].StudentID, new { Value = s.StudentID })
+                    <td>@Html.DisplayFor(model => s.StudentID)</td>
+                    <td>@Html.DisplayFor(model => s.FirstName)</td>
+                    <td>@ViewBag.ExamNo</td>
+                    <td>@Html.EditorFor(model => model[i].English)</td>
+                    <td>@Html.EditorFor(model => model[i].Maths)</td>
+                    <td>@Html.EditorFor(model => model[i].Science)</td>
+                    <td>@Html.EditorFor(model => model[i].SocialScience)</td>
+                    @Html.HiddenFor(model => model[i].ExamNo, new { Value = ViewBag.ExamNo })
+                </tr>
+                i++;
+            }
+        }
+        @Html.Hidden("ExamNo", new { value = ViewBag.ExamNo })
+        <tr>
+            <td colspan="5">
+                <input type="submit" value="Add" class="btn btn-default" />
+            </td>
+        </tr>
+    </table>
+            }

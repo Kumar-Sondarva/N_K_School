@@ -1,0 +1,43 @@
+﻿@model IEnumerable<N_K_School.Models.Teacher>
+
+@{
+    ViewBag.Title = "TeachersList";
+}
+
+<h2>TeachersList</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            GR No.
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    @foreach (var t in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => t.TeacherID)
+            </td>
+            <td>
+                @Html.DisplayFor(m => t.FirstName)
+                @Html.DisplayFor(m => t.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(m => t.Email)
+            </td>
+            <td>
+                @Html.ActionLink("View Details", "TeacherDetails", new { tid = t.TeacherID })
+            </td>
+        </tr>
+    }
+</table>
+

@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>@Html.ActionLink("New Admission Entery", "AddStudent")</h1>
+    <h1>@Html.ActionLink("8th Student List", "StudentList", new { sid = 0 })</h1>
+    <h1>@Html.ActionLink("9th Student List", "StudentList", new { sid = 1 })</h1>
+    <h1>@Html.ActionLink("10th Student List", "StudentList", new { sid = 2 })</h1>
+    @*<h1>@Html.ActionLink("Manage Techer", "Index", "Teachers")</h1>*@
+    <h1>@Html.ActionLink("Enter new Teacher", "AddTeacher", "Account")</h1>
+    <h1>@Html.ActionLink("Teacher's List", "TeachersList")</h1>
+</div>
+
+
+@*<br />
+@Html.ActionLink("8th List","StudentList",new { sid = 0})
+<br />
+@Html.ActionLink("9th List", "StudentList", new { sid = 1 })
+<br />
+@Html.ActionLink("10th List", "StudentList", new { sid = 2 })
+<br />
+<br />
+@Html.ActionLink("Manage Techer", "Index","Teachers")*@

@@ -1,0 +1,131 @@
+﻿@model N_K_School.Models.Student
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2>AddStudent</h2>
+
+@using (@Html.BeginForm("AddStudent", "Students", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })   
+
+    <table class="table table-bordered ">
+        <tr>
+            <th>
+                Fields
+            </th>
+            <th>
+                Data
+            </th>
+        </tr>
+        <tr>
+            <td>
+                FirstName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MiddleName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.MiddleName)
+                @Html.ValidationMessageFor(model => model.MiddleName, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                LastName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Dob,new { type = "date"})
+                @Html.ValidationMessageFor(model => model.Dob, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Admission
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.DateOfAdmission, new { type = "date" })
+                @Html.ValidationMessageFor(model => model.DateOfAdmission, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Email,new {  type = "email"})
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Address)
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No. Of Home
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Phone_Home, new { type = "tel"})
+                @Html.ValidationMessageFor(model => model.Phone_Home, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No. Of Office
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Phone_Office,new { type = "tel"  })
+                @Html.ValidationMessageFor(model => model.Phone_Office, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Admmision in Standard: 
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.EnteredStandard)
+                @Html.ValidationMessageFor(model => model.EnteredStandard, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            
+            <td>
+                Gender
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.Gender)
+                @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+            </td>
+            
+        </tr>
+    </table>
+    <div class="form-group ">
+
+        <input type="submit" name="Submit" value="Add Student" class="btn btn-primary" />
+    </div>
+    
+}

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "AddTeacherSubject";
+}
+
+<h2>AddTeacherSubject</h2>
+@using (Html.BeginForm("AddTeacherSubject", "TeacherSubjects", FormMethod.Post))
+{
+    @:Teacher Name: @Html.DropDownList("TeacherID")
+
+    <br />
+    <hr />
+<div class="form-group ">
+    <ul>
+        @foreach (var subject in ViewBag.Subjects)
+        {
+            <li>
+                <input type="checkbox" name="SubjectIDs" value="@subject.SubjectID" />
+                @subject.SubjectName
+            </li>
+        }
+    </ul>
+</div>
+       <hr />
+   <input class="btn btn-default" type="submit" value="Assign Subjects to Teacher" />
+}

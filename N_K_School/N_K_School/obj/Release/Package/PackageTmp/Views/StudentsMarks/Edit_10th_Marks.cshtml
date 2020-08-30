@@ -1,0 +1,47 @@
+﻿@model N_K_School.Models.Std10_Marks
+@{
+    ViewBag.Title = "Edit_10th_Marks";
+}
+
+<h2>Edit_10th_Marks</h2>
+
+@using (Html.BeginForm("Edit_10th_Marks", "StudentsMarks", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.Std10Id)
+    <table class="table table-bordered">
+        <tr>
+            <td>@Html.LabelFor(model => model.StudentID)</td>
+            @Html.HiddenFor(model => model.StudentID)
+            <td>@Html.DisplayFor(model => model.StudentID)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.ExamNo)</td>
+            <td>@Html.DisplayFor(model => model.ExamNo)</td>
+            @Html.HiddenFor(model => model.ExamNo)
+            @Html.Hidden("ExamNo", new { value = Model.ExamNo })
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.English)</td>
+            <td>@Html.EditorFor(model => model.English)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.Maths)</td>
+            <td>@Html.EditorFor(model => model.Maths)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.Science)</td>
+            <td>@Html.EditorFor(model => model.Science)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(model => model.SocialScience)</td>
+            <td>@Html.EditorFor(model => model.SocialScience)</td>
+            @Html.Hidden("SIds", new { value = ViewBag.SIds })
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Add" class="btn btn-success">
+            </td>
+        </tr>
+    </table>
+}
+

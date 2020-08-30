@@ -1,0 +1,107 @@
+﻿@model N_K_School.Models.Student
+@{
+    ViewBag.Title = "StudentDetails";
+}
+
+<h2>StudentDetails   @Html.DisplayFor(model => model.StudentID) @Html.ActionLink("Edit Details", "StudentEdit", new { stid = Model.StudentID })</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Fields
+        </th>
+        <th>
+            Data
+        </th>
+    </tr>
+    <tr>
+        <td>
+            FirstName
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.FirstName)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            MiddleName
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.MiddleName)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            LastName
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.LastName)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Date of Birth
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Dob)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Date of Admission
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.DateOfAdmission)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Email
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Email)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Address
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Address)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Phone No. Of Home
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Phone_Home)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Phone No. Of Office
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Phone_Office)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Admmision in Standard:
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.EnteredStandard)
+        </td>
+    </tr>
+    <tr>
+
+        <td>
+            Gender
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Gender)
+        </td>
+
+    </tr>
+</table>

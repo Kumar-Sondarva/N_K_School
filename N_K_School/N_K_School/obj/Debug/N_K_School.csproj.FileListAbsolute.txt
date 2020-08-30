@@ -1,0 +1,200 @@
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\csc.exe
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\vbc.exe
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\N_K_School.dll.config
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\N_K_School.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\N_K_School.pdb
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Antlr3.Runtime.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Microsoft.Web.Infrastructure.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Newtonsoft.Json.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Helpers.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Mvc.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Optimization.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Razor.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\WebGrease.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Helpers.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Mvc.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Optimization.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.Razor.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Antlr3.Runtime.pdb
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\Newtonsoft.Json.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.csprojResolveAssemblyReference.cache
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.pdb
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\EntityFramework.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\EntityFramework.SqlServer.dll
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\EntityFramework.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\bin\EntityFramework.SqlServer.xml
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.mig1.resources
+c:\users\kraitbhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.csproj.GenerateResource.Cache
+C:\Users\KraitBhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.DataAnotation.resources
+C:\Users\KraitBhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacher.resources
+C:\Users\KraitBhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacherSubject.resources
+C:\Users\KraitBhai\documents\visual studio 2015\Projects\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddClassTeacher.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\csc.exe
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\vbc.exe
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\N_K_School.dll.config
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\N_K_School.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\N_K_School.pdb
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Antlr3.Runtime.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\EntityFramework.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\EntityFramework.SqlServer.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Newtonsoft.Json.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Owin.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Helpers.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Mvc.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Optimization.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Razor.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\WebGrease.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\EntityFramework.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\EntityFramework.SqlServer.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Helpers.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Mvc.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Optimization.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.Razor.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Antlr3.Runtime.pdb
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\Newtonsoft.Json.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.csprojResolveAssemblyReference.cache
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.mig1.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.DataAnotation.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacher.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacherSubject.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddClassTeacher.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.csproj.GenerateResource.Cache
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.pdb
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\itextsharp.dll
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\bin\itextsharp.xml
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddNihar.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddNihar1.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid1.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid2.resources
+C:\Users\KraitBhai\Desktop\Combine\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid3.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\csc.exe
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\vbc.exe
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\N_K_School.dll.config
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\N_K_School.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\N_K_School.pdb
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Antlr3.Runtime.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\EntityFramework.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\EntityFramework.SqlServer.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\itextsharp.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Newtonsoft.Json.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Owin.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Helpers.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Mvc.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Optimization.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Razor.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\WebGrease.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\EntityFramework.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\EntityFramework.SqlServer.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\itextsharp.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Newtonsoft.Json.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Helpers.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Mvc.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Optimization.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.Razor.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\System.Web.WebPages.Razor.xml
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\bin\Antlr3.Runtime.pdb
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.csprojResolveAssemblyReference.cache
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.mig1.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.DataAnotation.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacher.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddTeacherSubject.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddClassTeacher.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddNihar.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.AddNihar1.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid1.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid2.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.Migrations.valid3.resources
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.csproj.GenerateResource.Cache
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.dll
+C:\Users\nihar\Downloads\WDDN_1920_N_K_SCHOOL_CE129_CE130\N_K_School\N_K_School\obj\Debug\N_K_School.pdb

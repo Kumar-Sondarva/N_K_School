@@ -1,0 +1,119 @@
+﻿@model N_K_School.Models.Student
+@{
+    ViewBag.Title = "StudentEdit";
+}
+
+<h2>StudentEdit</h2>
+
+
+@using (@Html.BeginForm("StudentEdit", "Students", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.StudentID)
+    @Html.HiddenFor(model => model.CurrentStandard)
+    <table class="table table-bordered ">
+        <tr>
+            <th>
+                Fields
+            </th>
+            <th>
+                Data
+            </th>
+        </tr>
+        <tr>
+            <td>
+                FirstName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MiddleName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.MiddleName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                LastName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Dob)
+        
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Admission
+            </td>
+            <td>
+                @Html.EditorFor(model => model.DateOfAdmission)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Email, new { type = "email" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No. Of Home
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Phone_Home, new { type = "tel" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No. Of Office
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Phone_Office, new { type = "tel" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Admmision in Standard:
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.EnteredStandard)
+            </td>
+        </tr>
+        <tr>
+
+            <td>
+                Gender
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.Gender)
+            </td>
+
+        </tr>
+    </table>
+    <div class="form-group ">
+
+        <input type="submit" name="Submit" value="Edit Student" class="btn btn-primary" />
+    </div>
+
+}

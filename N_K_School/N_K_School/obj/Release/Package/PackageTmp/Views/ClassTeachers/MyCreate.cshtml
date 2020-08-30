@@ -1,0 +1,13 @@
+﻿@model N_K_School.Models.ClassTeacher
+@{
+    ViewBag.Title = "MyCreate";
+}
+
+<h2>MyCreate</h2>
+
+@using (Html.BeginForm("MyCreate", "ClassTeachers", FormMethod.Post))
+{
+    @Html.DropDownList("TeacherID")<br />
+    @Html.EnumDropDownListFor(model => model.Standards)
+    <input type="submit" value="AddRow" />
+}

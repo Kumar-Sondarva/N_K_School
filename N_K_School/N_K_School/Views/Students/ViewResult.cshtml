@@ -1,0 +1,31 @@
+﻿@using N_K_School.Models
+
+@{
+    ViewBag.Title = "ViewResult";
+}
+
+<h2>ViewResult</h2>
+<h2 style="color:red">@ViewBag.Err</h2>
+@using (Html.BeginForm("ShowResult", "Students", FormMethod.Post))
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>StudentId</th>
+            <td>@Html.TextBox("StudentID", null,new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+            <th>Standard</th>
+            <td>@Html.DropDownList("Standard",new SelectList(Enum.GetValues(typeof(Standard))),new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+            <th>Exam </th>
+            <td>@Html.DropDownList("ExamNo", new SelectList(Enum.GetValues(typeof(ExamNo))), new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="View" class="btn btn-default" />
+            </td>
+        </tr>
+</table>
+}
+

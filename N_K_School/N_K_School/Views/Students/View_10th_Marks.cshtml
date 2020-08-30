@@ -1,0 +1,46 @@
+﻿@model N_K_School.Models.Std10_Marks
+
+@{
+    ViewBag.Title = "View_10th_Marks";
+}
+
+<h2>View_10th_Marks</h2>
+
+@using (Html.BeginForm("View_10th_Marks", "Students", FormMethod.Post))
+{
+<table class="table table-bordered">
+    <tr>
+        <!--Html.Hidden("MId", new { value = MId.ToString()})-->
+        @Html.HiddenFor(model => model.Std10Id)
+        <th>StudentName</th>
+        <td>@ViewBag.student.FirstName</td>
+    </tr>
+    <tr>
+        <th>Exam</th>
+        <td>@ViewBag.ExamNo</td>
+    </tr>
+    <tr>
+        <th>English</th>
+        <td>@Html.DisplayFor(model => model.English)</td>
+    </tr>
+    <tr>
+        <th>Maths</th>
+        <td>@Html.DisplayFor(model => model.Maths)</td>
+    </tr>
+    <tr>
+        <th>Science</th>
+        <td>@Html.DisplayFor(model => model.Science)</td>
+    </tr>
+    <tr>
+        <th>SocialScience</th>
+        <td>@Html.DisplayFor(model => model.SocialScience)</td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            
+                @Html.Hidden("SId", new { value = ViewBag.Student.StudentID })
+                <button id="submitButton" type="submit">Create Pdf</button>
+        </td>
+    </tr>
+</table>
+}

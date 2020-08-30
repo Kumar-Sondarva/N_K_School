@@ -1,0 +1,18 @@
+﻿@model N_K_School.Models.ClassTeacher
+@{
+    ViewBag.Title = "EditClassTeacher";
+}
+
+<h2>EditClassTeacher</h2>
+<h2>
+    @Html.DisplayFor(m => Model.Standards)
+    @ViewBag.OldTeacherEmail
+</h2>
+@using (Html.BeginForm("EditClassTeacher1", "ClassTeachers", FormMethod.Post))
+{
+    @Html.HiddenFor(m => Model.Standards)
+    @Html.Hidden("OldClassTeacher",(object) ViewBag.OldTeacherEmail) 
+    @Html.DropDownList("TeacherID")
+    <input type="submit" value="Save" />
+    
+}

@@ -1,0 +1,113 @@
+﻿@model N_K_School.Models.Teacher
+
+@{
+    ViewBag.Title = "TeacherEdit";
+}
+
+<h2>TeacherEdit</h2>
+
+
+
+@using (@Html.BeginForm("TeacherEdit", "Teachers", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.TeacherID)
+    <table class="table table-bordered ">
+        <tr>
+            <th>
+                Fields
+            </th>
+            <th>
+                Data
+            </th>
+        </tr>
+        <tr>
+            <td>
+                FirstName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MiddleName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.MiddleName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                LastName
+            </td>
+            <td>
+                @Html.EditorFor(model => model.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Dob, new { type = "date" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Joining
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.DateOfJoining, new { type = "date" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Email, new { type = "email" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Qualification
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Qualification)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Address)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone No.
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Phone, new { type = "tel" })
+            </td>
+        </tr>
+
+        <tr>
+
+            <td>
+                Gender
+            </td>
+            <td>
+                @Html.EnumDropDownListFor(model => model.Gender)
+            </td>
+
+        </tr>
+    </table>
+    <div class="form-group ">
+
+        <input type="submit" name="Submit" value="Edit Teacher" class="btn btn-primary" />
+    </div>
+
+}
+

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<N_K_School.Models.Subject>
+
+@{
+    ViewBag.Title = "SubjectList";
+}
+
+<h2>SubjectList</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Subject Name:
+        </th>
+    </tr>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => s.SubjectID)
+            </td>
+            <td>
+                @Html.DisplayFor(m => s.SubjectName)
+            </td>
+        </tr>
+
+
+
+
+
+
+
+
+    }
+</table>

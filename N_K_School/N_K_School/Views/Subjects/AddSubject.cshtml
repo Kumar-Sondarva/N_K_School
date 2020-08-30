@@ -1,0 +1,25 @@
+﻿@model N_K_School.Models.Subject
+@{
+    ViewBag.Title = "AddSubject";
+}
+
+<h2>AddSubject</h2>
+
+@using (@Html.BeginForm("AddSubject", "Subjects", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                @Html.EditorFor(model => model.SubjectName)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Add" />
+            </td>
+        </tr>
+    </table>
+}

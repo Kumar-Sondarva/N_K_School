@@ -1,0 +1,35 @@
+﻿@model IEnumerable<N_K_School.Models.TeacherSubject>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@Html.ActionLink("Create","AddTeacherSubject","TeacherSubjects")</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Teacher Name
+        </th>
+        <th>
+            Subject Assigned
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    @foreach( var ts in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor( m => ts.Teacher.FirstName)
+                @Html.DisplayFor(m => ts.Teacher.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(m => ts.Subject.SubjectName)
+            </td>
+            <td>
+                @Html.ActionLink("Remove", "RemoveTeacherSubject", "TeacherSubjects", new { t = ts.TeacherID , s = ts.SubjectID },null)
+            </td>
+        </tr>
+    }
+</table>

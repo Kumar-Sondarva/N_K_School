@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav">
+        @if (User.IsInRole("Clerk"))
+        {
+            <li>@Html.ActionLink("Clerk", "Index", "Students")</li>
+        }else if(User.IsInRole("Principal"))
+        {
+            <li>@Html.ActionLink("Principal","Index","Subjects")</li>
+           
+            @*<li>@Html.ActionLink("Teacher's Information", "PrincipleTeachersList", "Teachers")</li>
+            <li>@Html.ActionLink("Subject -->Teacher", "Index", "TeacherSubjects")</li>
+            <li>@Html.ActionLink("Role", "Index", "Role")</li>
+            <li>@Html.ActionLink("ClassTeacher", "Index", "ClassTeachers")</li>
+            <li>@Html.ActionLink("Enter Clerk", "Register", "Account")</li>*@
+
+        }
+        @if (User.IsInRole("Class_Teacher_8th"))
+        {
+            <li>@Html.ActionLink("Teacher", "Index", "StudentsMarks")</li>
+            <li>@Html.ActionLink("8th_Students_Marks  First", "Add_8th_Marks","StudentsMarks", new { std = 0, ExamNo = 1 },null)</li>
+            <li>@Html.ActionLink("8th_Students_Marks  Second", "Add_8th_Marks", "StudentsMarks", new { std = 0, ExamNo = 2 },null)</li>
+            <li>@Html.ActionLink("8th_Students_Marks  Final", "Add_8th_Marks", "StudentsMarks", new { std = 0, ExamNo = 3 },null)</li>
+        }
+        @if (User.IsInRole("Class_Teacher_9th"))
+        {
+            <li>@Html.ActionLink("Teacher", "Index", "StudentsMarks")</li>
+
+        <li>@Html.ActionLink("9th_Students_Marks First", "Add_9th_Marks", "StudentsMarks",new { std = 1, ExamNo = 1 },null)</li>
+        <li>
+            @Html.ActionLink("9th_Students_Marks Second", "Add_9th_Marks", "StudentsMarks",new { std = 1, ExamNo = 2 },null)
+        </li>
+        <li>
+            @Html.ActionLink("9th_Students_Marks Final", "Add_9th_Marks", "StudentsMarks",new { std = 1, ExamNo = 3 },null)
+        </li>
+
+        }
+        @if (User.IsInRole("Class_Teacher_10th"))
+        {
+            <li>@Html.ActionLink("Teacher", "Index", "StudentsMarks")</li>
+
+            <li>
+                @Html.ActionLink("10th_Students_Marks First", "Add_10th_Marks", "StudentsMarks",new { std = 2, ExamNo = 1 },null)
+            </li>
+            <li>
+                @Html.ActionLink("10th_Students_Marks Second", "Add_10th_Marks", "StudentsMarks", new { std = 2, ExamNo = 2 },null)
+            </li>
+            <li>
+                @Html.ActionLink("10th_Students_Marks Final", "Add_10th_Marks", "StudentsMarks",new { std = 2, ExamNo = 3 },null)
+            </li>
+        }
+
+    </ul>
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @*<li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

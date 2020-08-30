@@ -1,0 +1,46 @@
+﻿@model IEnumerable<N_K_School.Models.ClassTeacher>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table class="table">
+    <tr>
+        <th>
+            Standard
+        </th>
+        <th>
+            Class Teacher
+        </th>
+        <th>
+
+        </th>
+    </tr>
+
+    @foreach (var ct in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => ct.Standards)
+            </td>
+            <td>
+                @Html.DisplayFor(m => ct.Teacher.FirstName)
+            </td>
+            <td>
+                @using (Html.BeginForm("EditClassTeacher", "ClassTeachers", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => ct.Standards)
+                    @Html.HiddenFor(m => ct.TeacherID)
+                <input type="submit" value="Change Class Teacher" class="btn btn-success" />                
+                }
+
+
+            </td>
+        </tr>
+
+      
+
+
+    }
+
+</table>
